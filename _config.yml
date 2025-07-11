@@ -22,7 +22,7 @@ plugins:
 
 # Site settings
 url: 'https://www.katzgov.com'
-baseurl: ''
+baseurl: '/katzgov'
 title: 'Katz Government Affairs'
 description: 'Katz Government Affairs, LLC'
 permalink: pretty
