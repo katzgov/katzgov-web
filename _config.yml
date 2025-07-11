@@ -21,7 +21,7 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: 'https://www.katzgov.com'
+url: 'https://maxtkc.github.io'
 baseurl: '/katzgov'
 title: 'Katz Government Affairs'
 description: 'Katz Government Affairs, LLC'
