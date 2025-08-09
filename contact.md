@@ -2,6 +2,8 @@
 title: Contact Us
 ---
 
+![Trenton Makes](Trenton_Makes.jpg){:width="50%" style="float: right"}
+
 > Katz Government Affairs, LLC  
 > 154 West State Street  
 > Trenton, NJ 08608

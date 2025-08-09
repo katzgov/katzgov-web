@@ -23,3 +23,5 @@ title: Clients
 - [StubHub](http://www.stubhub.com/){:target="_blank"}
 - [Turo](http://www.turo.com/){:target="_blank"}
 - [Wheelabrator Technologies](http://www.wtienergy.com/){:target="_blank"}
+
+![NJBiz](njbiz reader rankings 2024.png){:width="30%"}
