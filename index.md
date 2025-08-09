@@ -1,4 +1,5 @@
 ---
+title: ""
 feature_image: "/colorhall-348x523.png"
 feature_text: |
   # Welcome to Katz Government Affairs
