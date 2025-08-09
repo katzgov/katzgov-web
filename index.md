@@ -1,21 +1,37 @@
 ---
 feature_image: "/colorhall-348x523.png"
 feature_text: |
-  # Home
+  # Welcome to Katz Government Affairs
 ---
 
-# Katz Government Affairs
+### Expertise. Service. Results.
 
-The professionals at Katz Government Affairs possess a deep understanding of
-New Jersey government, a detailed knowledge of the state’s political
-environment, an ability to quickly comprehend complicated business issues and a
-dedication to hand-tailored client service delivered in a small firm setting.
+Founded in 2003, Katz Government Affairs is a full-service government affairs firm
+serving clients throughout New Jersey. Known for our clients-first approach and our
+results-driven strategies, Katz Government Affairs provides clients with the insight,
+relationships, strategy and expertise needed to navigate complex policy environments.
+Katz Government Affairs focuses on client service, shaping policy outcomes, mitigating
+political risks, and ensuring that our clients’ perspectives are represented effectively at
+the State House.
 
-Consistently ranked by revenue among New Jersey's top lobbying firms, and
-repeatedly voted New Jersey's #1 lobbying firm in the annual NJBIZ Reader
-Rankings survey, Katz Government Affairs is the right choice for trade and
-professional associations and businesses that want to avoid legislative and
-regulatory surprises and make their voices heard in State government.
+We define our work by three core principles: **Expertise, Service, and Results**. We
+combine in-depth policy knowledge, targeted advocacy, and proactive communication to
+maximize impact and minimize surprises.
+
+### Experience & Relationships That Matter
+
+With decades of combined experience, our team has cultivated lasting relationships with decision-makers across all levels of New Jersey government, maintaining strong ties to the individuals and institutions most active and influential in enacting legislation and making decisions in the executive branch. These relationships don’t just open doors — they build trust, foster collaboration, and create opportunities for progress on behalf of our clients.
+
+But access alone isn’t enough. Effective advocacy requires strategic thinking, a firm grasp of policy, and an ability to adapt quickly. Our team works closely with clients to develop tailored strategies and execute them with precision. At Katz Government Affairs, we deliver all of this and more.
+
+### The Katz Government Affairs Difference: Putting Clients First
+
+What sets us apart? Our unwavering commitment to client service.
+
+We don’t just work for you — we work with you. We become part of your team, representing your interests with the same urgency and passion as our own.
+
+We pride ourselves on active communication. We don’t wait for a call from clients but instead we anticipate needs, reaching out to clients to proactively alert them to developments of potential concern and providing consistent updates every step of the way. This high-touch, responsive approach has earned us industry recognition and, more important, the trust of our clients.
+
 
 ---
 
