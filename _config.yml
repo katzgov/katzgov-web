@@ -42,7 +42,7 @@ navigation_header:
   url: /clients/
 - title: Contact
   url: /contact/
-- title: Blog
+- title: The KGA Bulletin
   url: /blog/
 
 # Footer nav
@@ -65,7 +65,7 @@ collections:
     output: true
     description: "KGA Milestones"
     feature_text: |
-      ## Blog
+      ## The KGA Bulletin
     feature_image: "/statehouse-506x495.jpg"
 
 # Collection settings
