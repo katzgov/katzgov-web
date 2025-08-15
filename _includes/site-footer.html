@@ -1,0 +1,9 @@
+<footer class="footer">
+  <div class="container">
+    <div class="copyright  typeset">
+      <small>{% if site.footer_text %}{{ site.footer_text | replace: '<br>', ' | ' }} | {% endif %}&copy; {{ site.title }} {{ 'now' | date: "%Y" }}</small>
+    </div>
+
+    {% include nav-footer.html %}
+  </div>
+</footer>

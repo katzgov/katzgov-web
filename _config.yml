@@ -47,8 +47,16 @@ navigation_header:
 
 # Footer nav
 navigation_footer:
+- title: LinkedIn
+  url: "https://www.linkedin.com/company/katz-government-affairs"
 - title: Back to top
   url: "#top"
+
+# Footer contact info
+footer_text: |
+  Katz Government Affairs, LLC<br>
+  154 West State Street, Trenton, NJ 08608<br>
+  Phone: (609) 392-7070
 
 # Collections
 collections:
