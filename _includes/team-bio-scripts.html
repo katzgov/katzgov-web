@@ -1,0 +1,81 @@
+<script>
+function toggleBio(memberId, event) {
+  // Prevent event bubbling if clicking on close button
+  if (event && event.target.classList.contains('close-btn')) {
+    return;
+  }
+  
+  const teamMember = document.getElementById(memberId);
+  const allMembers = document.querySelectorAll('.team-member');
+  const teamGrid = document.querySelector('.team-grid');
+  
+  if (teamMember.classList.contains('expanded')) {
+    // Close the expanded bio
+    teamMember.classList.remove('expanded');
+    
+    // Show all other team members
+    allMembers.forEach(member => {
+      member.classList.remove('hidden');
+    });
+    
+    // Reset grid layout
+    teamGrid.style.gridTemplateColumns = 'repeat(auto-fit, minmax(250px, 1fr))';
+  } else {
+    // Close any other expanded bio first
+    allMembers.forEach(member => {
+      member.classList.remove('expanded');
+    });
+    
+    // Hide all other team members
+    allMembers.forEach(member => {
+      if (member !== teamMember) {
+        member.classList.add('hidden');
+      }
+    });
+    
+    // Expand this bio
+    teamMember.classList.add('expanded');
+    teamMember.classList.remove('hidden');
+    
+    // Adjust grid to center the expanded card
+    teamGrid.style.gridTemplateColumns = '1fr';
+    
+    // Scroll to the expanded card with some delay for animation
+    setTimeout(() => {
+      teamMember.scrollIntoView({ 
+        behavior: 'smooth', 
+        block: 'start',
+        inline: 'center'
+      });
+    }, 100);
+  }
+}
+
+function closeBio(memberId, event) {
+  event.stopPropagation();
+  
+  const teamMember = document.getElementById(memberId);
+  const allMembers = document.querySelectorAll('.team-member');
+  const teamGrid = document.querySelector('.team-grid');
+  
+  // Close the expanded bio
+  teamMember.classList.remove('expanded');
+  
+  // Show all other team members
+  allMembers.forEach(member => {
+    member.classList.remove('hidden');
+  });
+  
+  // Reset grid layout
+  teamGrid.style.gridTemplateColumns = 'repeat(auto-fit, minmax(250px, 1fr))';
+}
+
+// Close bio when clicking outside the expanded card
+document.addEventListener('click', function(event) {
+  const expandedMember = document.querySelector('.team-member.expanded');
+  if (expandedMember && !expandedMember.contains(event.target)) {
+    const memberId = expandedMember.id;
+    toggleBio(memberId);
+  }
+});
+</script>

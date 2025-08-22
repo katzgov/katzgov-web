@@ -54,3 +54,4 @@ bundle exec jekyll build # Build static site
 ## Deployment
 
 The site is configured for GitHub Pages deployment with the remote theme approach. Changes to the main branch automatically trigger rebuilds.
+- Lets avoid writing html/js/css in the md files. Instead we should put them in _includes

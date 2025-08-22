@@ -1,0 +1,104 @@
+<style>
+.team-grid {
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 2rem; 
+  margin: 2rem 0;
+  transition: all 0.3s ease;
+}
+
+.team-member {
+  text-align: center; 
+  border: 1px solid #e0e0e0; 
+  padding: 1.5rem; 
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  border-color: #3498db;
+}
+
+.team-member.expanded {
+  grid-column: 1 / -1;
+  max-width: 800px;
+  margin: 2rem auto;
+  cursor: default;
+}
+
+.team-member.expanded:hover {
+  transform: none;
+}
+
+.team-member.hidden {
+  display: none;
+}
+
+.team-member .bio-content {
+  display: none;
+  text-align: left;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.team-member.expanded .bio-content {
+  display: block;
+}
+
+.team-member .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  color: #666;
+  border: none;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 300;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.team-member.expanded .close-btn {
+  display: flex;
+}
+
+.team-member .close-btn:hover {
+  color: #333;
+  transform: scale(1.2);
+}
+
+.hover-indicator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(52, 152, 219, 0.9);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.team-member:hover .hover-indicator {
+  opacity: 1;
+}
+
+.team-member.expanded .hover-indicator {
+  display: none;
+}
+</style>
