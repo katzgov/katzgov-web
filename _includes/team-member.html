@@ -1,0 +1,20 @@
+<div class="team-member" id="{{ include.id }}-member" onclick="toggleBio('{{ include.id }}-member')">
+  <div class="hover-indicator">Read more</div>
+  <button class="close-btn" onclick="closeBio('{{ include.id }}-member', event)">&times;</button>
+  
+  {% if include.image %}
+    <img src="{{ include.image }}" alt="{{ include.name }}, {{ include.title }}" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+  {% else %}
+    <div style="width: 150px; height: 150px; border-radius: 50%; background-color: #f8f9fa; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; border: 2px solid #e9ecef;">
+      <span style="font-size: 3rem; color: #6c757d; font-weight: bold;">{{ include.initials }}</span>
+    </div>
+  {% endif %}
+  
+  <h4 style="margin: 0.5rem 0; color: #2c3e50;">{{ include.name }}</h4>
+  <p style="margin: 0.25rem 0; font-weight: bold; color: #7f8c8d;">{{ include.title }}</p>
+  <p style="margin: 1rem 0; font-size: 0.9rem; line-height: 1.4;">{{ include.summary }}</p>
+  
+  <div class="bio-content">
+    {{ include.bio }}
+  </div>
+</div>
