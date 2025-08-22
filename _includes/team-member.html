@@ -3,7 +3,7 @@
   <button class="close-btn" onclick="closeBio('{{ include.id }}-member', event)">&times;</button>
   
   {% if include.image %}
-    <img src="{{ include.image }}" alt="{{ include.name }}, {{ include.title }}" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
+    <img src="{{ include.image | relative_url }}" alt="{{ include.name }}, {{ include.title }}" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem;">
   {% else %}
     <div style="width: 150px; height: 150px; border-radius: 50%; background-color: #f8f9fa; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; border: 2px solid #e9ecef;">
       <span style="font-size: 3rem; color: #6c757d; font-weight: bold;">{{ include.initials }}</span>
