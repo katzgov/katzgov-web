@@ -7,9 +7,9 @@ title: Clients
 - [Americans for Nonsmokers Rights](http://www.no-smoke.org/){:target="_blank"}
 - Bus Association of New Jersey, Inc.
 - [Chamber of Commerce Southern NJ](http://www.chambersnj.com/){:target="_blank"}
-- [CrossState Credit Union Association](http://www.crossstate.org/Home){:target="_blank"}
+- [CrossState Credit Union Association](https://www.crossstate.org/){:target="_blank"}
 - [CVS Health](http://www.cvshealth.com/){:target="_blank"}
-- [DoorDash](http://www.doordash.com/){:target="_blank"}
+- [DoorDash](https://about.doordash.com/en-us){:target="_blank"}
 - [eBay](http://www.ebay.com/){:target="_blank"}
 - [Eden Autism](http://www.edenautism.org/){:target="_blank"}
 - [Int\'l Assn of Plumbing and Mechanical Officials](http://www.iapmo.org/){:target="_blank"}
