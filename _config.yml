@@ -42,8 +42,8 @@ navigation_header:
   url: /clients/
 - title: Contact
   url: /contact/
-- title: The KGA Bulletin
-  url: /blog/
+# - title: The KGA Bulletin
+#   url: /blog/
 
 # Footer nav
 navigation_footer:
